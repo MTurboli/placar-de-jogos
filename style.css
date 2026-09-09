@@ -89,7 +89,7 @@ h2 {
     text-align: center;
 }
 
-.btn-plus-minus {
+.btn-plus {
     background-color: #ededed;
     color: black;
     border: none;
@@ -100,6 +100,21 @@ h2 {
     font-weight: bold;
 }
 
-.btn-plus-minus:hover {
+.btn-minus {
+    background-color: #ededed;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 7px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-plus:hover {
+    background-color: #ddd;
+}
+
+.btn-minus:hover {
     background-color: #ddd;
 }
